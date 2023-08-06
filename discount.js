@@ -5,6 +5,7 @@
 
 */
 
+/*
 
 function ticketPrice(ticketQuantity){
     let first100PerTicketRate = 100;
@@ -31,6 +32,15 @@ function ticketPrice(ticketQuantity){
 
 let result = ticketPrice(250);
 console.log(result);
+
+*/
+
+
+// let sum = 0 ; 
+// for( let i = 0; i<=3; i++ ){ 
+//     // sum = sum + i; 
+//     console.log(i);
+// }
 
 
 
