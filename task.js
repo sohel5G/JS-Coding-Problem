@@ -41,7 +41,7 @@ console.log(result);
 
 
 /* 
-1ta array takne tumr all friend name er, ekn tader boro name ta bar koro, functions name hobe bestFriend
+1 ta array takne tumr all friend name er, ekn tader boro name ta bar koro, functions name hobe bestFriend
 */
 /*
 function bestFriend(arr){
@@ -61,6 +61,34 @@ console.log( 'The big friend name is ' + result + ' and total character is ' + r
 
 
 
+// ----------------------------------------------------------------------------------
+
+
+
+/* 
+1 ta array theke all possitive number deye 1 ta new array banaba. but oy array jodi kuno negative number take taile loop stop kore ager all positive number guli deye array banaba. 
+*/
+
+function onlyPositive(arr){
+    let positiveNumArray = [];
+    for(let x = 0; x < arr.length; x++ ){
+        let numValue = arr[x];
+        if(numValue > 0){
+            positiveNumArray.push(numValue);
+        }else{
+            break;
+        }
+    }
+    return positiveNumArray;
+}
+let myNumArray = [12, 23, 564, 454, 343, 345, -45, -353, 56, -4, 778, -2];
+let result = onlyPositive(myNumArray);
+console.log(result);
+
+
+
+
+// ------------------------------------------------------------------------------------
 
 
 
